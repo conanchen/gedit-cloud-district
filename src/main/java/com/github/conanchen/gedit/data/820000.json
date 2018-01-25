@@ -1,0 +1,20 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "suggestion": {
+    "keywords": [],
+    "cities": []
+  },
+  "districts": [
+    {
+      "citycode": "1853",
+      "adcode": "820000",
+      "name": "澳门特别行政区",
+      "center": "113.543028,22.186835",
+      "level": "province",
+      "districts": []
+    }
+  ]
+}

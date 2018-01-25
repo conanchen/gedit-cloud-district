@@ -1,0 +1,20 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "suggestion": {
+    "keywords": [],
+    "cities": []
+  },
+  "districts": [
+    {
+      "citycode": "010",
+      "adcode": "110000",
+      "name": "北京市",
+      "center": "116.407394,39.904211",
+      "level": "province",
+      "districts": []
+    }
+  ]
+}

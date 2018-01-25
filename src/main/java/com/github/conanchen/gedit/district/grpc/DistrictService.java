@@ -1,7 +1,11 @@
-package com.github.conanchen.gedit.hello.grpc;
+package com.github.conanchen.gedit.district.grpc;
 
 import com.github.conanchen.gedit.common.grpc.LogInterceptor;
 import com.github.conanchen.gedit.common.grpc.Status;
+import com.github.conanchen.gedit.hello.grpc.HelloGrpc;
+import com.github.conanchen.gedit.hello.grpc.HelloReply;
+import com.github.conanchen.gedit.hello.grpc.HelloRequest;
+import com.github.conanchen.gedit.hello.grpc.ListHelloRequest;
 import com.google.gson.Gson;
 import io.grpc.stub.StreamObserver;
 import org.lognet.springboot.grpc.GRpcService;
@@ -14,8 +18,8 @@ import java.util.Date;
 import java.util.UUID;
 
 @GRpcService(interceptors = {LogInterceptor.class})
-public class HelloService extends HelloGrpc.HelloImplBase {
-    private static final Logger log = LoggerFactory.getLogger(HelloService.class);
+public class DistrictService extends HelloGrpc.HelloImplBase {
+    private static final Logger log = LoggerFactory.getLogger(DistrictService.class);
     private static final Gson gson = new Gson();
     private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
