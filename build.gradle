@@ -28,7 +28,7 @@ group = 'conanchen'
 version =  '0.0.1-SNAPSHOT'
 
 jar {
-    baseName = 'gedit-cloud-hello'
+    baseName = 'gedit-cloud-district'
 }
 
 // tag::task[]
@@ -79,4 +79,5 @@ dependencies {
         exclude group: 'org.slf4j', module: 'log4j-over-slf4j'
     }
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.4'
 }
